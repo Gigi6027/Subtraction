@@ -17,8 +17,6 @@ if btn:
             num1 = int(num1)
             num2 = int(num2)
             st.markdown(f"## {num1} - {num2} = {float(num1) - float(num2)}")
-        except ZeroDivisionError:
-            st.error("Do not divide by zero !!!")
         except ValueError:
             st.error("Enter numbers only !!!")
     else:
