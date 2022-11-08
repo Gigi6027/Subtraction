@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Subtraction of two numbers')
+st.title('Railway Reservation System PES1UG20CS252')
 st.subheader('Gigi')
 
 
